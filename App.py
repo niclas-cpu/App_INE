@@ -28,9 +28,9 @@ with st.sidebar:
         type=["xlsx", "xls"]
     )
 
-if dados:
-    df = carregar_dados(dados)
-    st.table(df)
-else:
-    st.info("Carregue um ficheiro Excel para começar")
+    if dados:
+        df = carregar_dados(dados)
+        st.table(df)
+    else:
+        st.info("Carregue um ficheiro Excel para começar")
 
