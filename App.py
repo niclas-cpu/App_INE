@@ -1,4 +1,4 @@
-import streamlit as st
+ import streamlit as st
 from streamlit_option_menu import option_menu
 st.header("Introduzindo os elementos do Streamlit")
 menu = option_menu(menu_title="Menu",
@@ -16,7 +16,7 @@ with st.sidebar:
     type=["xlsx", "xls"]
   )
 
-if dados:
+ if dados:
   def carregar_dados(dados):
     try:
       df = pd.read_excel(dados)
@@ -25,5 +25,5 @@ if dados:
       return pd.dataframe()
 
   df = carregar_dados(dados)
-else:
+ else:
     st.info("Carregue um ficheiro Excel para começar")
