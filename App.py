@@ -25,5 +25,5 @@ if dados:
       return pd.dataframe()
 
   df = carregar_dados(dados)
-else:
-    st.info("Carregue um ficheiro Excel para começar")
+ else:
+     st.info("Carregue um ficheiro Excel para começar")
