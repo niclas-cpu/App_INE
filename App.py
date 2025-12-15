@@ -50,4 +50,4 @@ if menu == "Widgets":
                   )
 
     texto = f"Eu tenho {sd} anos!"
-    st.sucess(texto)
+    st.success(texto)
