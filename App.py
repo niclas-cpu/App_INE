@@ -7,3 +7,4 @@ menu = option_menu(menu_title="Menu",
                    menu_icon = "cast",
                    default_index=0,
                    orientation="horizontal"
+                  )
