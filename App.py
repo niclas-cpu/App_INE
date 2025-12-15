@@ -17,7 +17,6 @@ with st.sidebar:
   )
 
    if dados:
-     
       def carregar_dados(dados):
         try:
            df = pd.read_excel(dados)
