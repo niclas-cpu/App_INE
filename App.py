@@ -1,3 +1,8 @@
 import streamlit as st
 
 st.header("Introduzindo os elementos do Streamlit")
+menu = option_menu(menu_title= "Menu", options =["Início", "Gráficos Estatísticos", "Gráficos Dinâmicos", "Widgets", "Formuçário"],
+                   icons = ["house", "bar-chart", "bar-chart-line", "toggles", "bar-chart"],
+                   menu_icon = "cast",
+                   default_index=0,
+                   orientation="horizontal"
