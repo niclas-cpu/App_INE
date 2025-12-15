@@ -13,7 +13,6 @@ menu = option_menu(
     orientation="horizontal"
 )
 
-
 def carregar_dados(dados):
     try:
         df = pd.read_excel(dados)
