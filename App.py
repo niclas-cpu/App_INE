@@ -6,4 +6,4 @@ menu = option_menu(menu_title="Menu",
                    icons = ["house", "bar-chart", "bar-chart-line", "toggles", "bar-chart"],
                    menu_icon = "cast",
                    default_index=0,
-                   orientation="horizontal")
+                   orientation="horizontal"
